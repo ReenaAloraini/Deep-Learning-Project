@@ -1,0 +1,9 @@
+Architecture,Config,Clean acc (%),Mean corrupted acc (%),Macro-F1 clean (%),Accuracy drop (pp),Robustness improvement (pp),Clean accuracy cost (pp),Training time (s),Parameters
+Custom CNN,Clean,88.72,74.24,83.6,14.47,0.0,0.0,114.43,629067
+Custom CNN,Noise,88.9,86.93,82.94,1.97,12.69,-0.18,157.99,629067
+Custom CNN,Blur,89.95,73.33,84.19,16.62,-0.91,-1.24,259.24,629067
+Custom CNN,Mixed,88.86,86.88,84.22,1.98,12.64,-0.14,208.52,629067
+MobileNetV2,Clean,92.98,63.83,88.25,29.16,0.0,0.0,255.04,2278955
+MobileNetV2,Noise,94.68,92.28,91.42,2.4,28.46,-1.69,300.65,2278955
+MobileNetV2,Blur,93.87,65.22,89.95,28.65,1.4,-0.89,382.03,2278955
+MobileNetV2,Mixed,94.89,91.54,91.29,3.35,27.71,-1.9,349.75,2278955

@@ -1,0 +1,7 @@
+Set,Dimension,Min,Max,Mean,Median,Std
+Train,Width (px),25,243,50.93,43.0,24.37
+Train,Height (px),25,225,50.37,43.0,23.16
+Test,Width (px),25,266,50.51,43.0,25.09
+Test,Height (px),25,232,50.36,43.0,23.7
+All images,Width (px),25,266,50.8,43.0,24.61
+All images,Height (px),25,232,50.36,43.0,23.34

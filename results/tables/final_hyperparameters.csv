@@ -1,0 +1,13 @@
+Hyperparameter,Custom CNN,MobileNetV2
+Optimizer,AdamW,AdamW
+Learning rate,0.001 (selected on validation accuracy),"0.0003 classifier / 3e-05 backbone (prescribed, not tuned)"
+Weight decay,0.0001,0.0001
+Batch size,64,64
+Max epochs / early-stopping patience,15 / 5,15 / 5
+Checkpoint selection,validation macro-F1,validation macro-F1
+Input size,96x96,96x96
+Frozen backbone epochs,-,0 (none)
+Fine-tuned layers,all layers trained,all layers (BN statistics updated)
+Dropout,0.4,0.2 (torchvision default)
+Mixed precision,True,True
+Seed,42,42

@@ -1,0 +1,9 @@
+Quantity,Value
+Total images (train + test),39270
+Number of classes,43
+Training images (before split),26640
+  training split,21330
+  validation split,5310
+Test images,12630
+Training images per class (min / max),150 / 1500
+Validation split method,track-disjoint + stratified (split seed 48)

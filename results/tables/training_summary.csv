@@ -1,0 +1,9 @@
+Architecture,Config,Epochs run,Best epoch,Val acc (%),Val macro-F1 (%),Val loss,Training time (s)
+Custom CNN,Clean,15,13,89.153,87.412,0.447,114.426
+Custom CNN,Noise,15,14,87.684,82.95,0.518,157.987
+Custom CNN,Blur,15,12,90.113,86.893,0.501,259.239
+Custom CNN,Mixed,15,14,89.793,85.641,0.443,208.521
+MobileNetV2,Clean,15,13,93.277,90.954,0.286,255.038
+MobileNetV2,Noise,15,13,94.934,93.533,0.191,300.648
+MobileNetV2,Blur,15,15,94.218,92.565,0.282,382.034
+MobileNetV2,Mixed,15,14,94.162,92.885,0.222,349.752

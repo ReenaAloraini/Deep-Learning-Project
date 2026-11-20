@@ -1,0 +1,3 @@
+Architecture,Config,Macro OvR ROC-AUC,Micro ROC-AUC
+Custom CNN,Clean,0.9963,0.99796
+MobileNetV2,Noise,0.99853,0.99904

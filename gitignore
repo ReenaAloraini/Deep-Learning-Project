@@ -1,0 +1,18 @@
+# dataset (re-downloaded automatically by torchvision) and image caches
+data/
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+*.pyc
+
+# exports and OS files
+*.zip
+.DS_Store
+Thumbs.db
+
+# Model checkpoints are committed by default. If the repository gets too large,
+# uncomment the next line to leave them out:
+# checkpoints/
